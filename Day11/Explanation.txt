@@ -1,0 +1,5 @@
+Day11:
+
+
+
+Aaaj hum ne seekha ke apni portfolio website ko mobile friendly kaise banate hain. Iska matlab ye hai ke jab koi banda chooti screen jaise mobile phone ya tablet pe website dekhee too sab cheezen properly fit ho orr use scroll karna ya zoom karna na pare. Hum ne seekha media queries ka use karna, jo screen size ke hisaab se design change kar dete hain. Hum ne apni navigation ko mobile pe column mein convert kiya, header image ko chhota kiya, hobbies aur table ko adjust kiya taake sab easily readable ho jaye. Aaj basically hum ne apni portfolio ko responsive banaya orr ensure kiya ke ye sirf desktop pe hi nahi mobile screens pe bhi achaa lage.
