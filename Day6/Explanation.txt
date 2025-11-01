@@ -1,0 +1,10 @@
+Day6:
+
+
+Aaj humne CSS ke basics parhna start kiya. CSS ka matlab hai Cascading Style Sheets or yeh use hoti hai HTML pages koo style dene ke liye.
+Sabse pehle humne selectors dekhe jo batate hain ke HTML ka konsa element style hoga.
+Phir humne colors apply karna seekha jaise text ka rang change karna ya background kooo color dena.
+Uske baad humne fonts ke bare mein seekha jahan hum text ka style, size aur family change karte hain taake page zyada readable aur acha laage.
+Backgrounds ke through humne samjha ke kis tarah images ya colors laga sakte hain poore page ya kisi specific section ke liye.
+Aur end mein humne text styles seekhe jisme hum bold, italic, underline, alignment aur spacing waghera kar sakte hain.
+

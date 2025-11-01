@@ -1,0 +1,5 @@
+HTML (HyperText Markup Language):
+
+HTML aik markup language hai jo websites banane ke liye istemaal kia jata hai . Yeh web pages ka structure tay karti hai,  jaise ke headings, paragraphs, images, links . Har element ko tags ke zariye likha jata hai jo < > brackets ke andar hote hain.
+
+Misal ke taur par jo program hum ne lika hai usme bhi hum ne kuch tags ka istmal kia hai jaise ke <h1>  or <h2> tag hum ne heading ke lia istimal kia hai  isi tarah paragraphs ke liye <p> ka use kia haii . 

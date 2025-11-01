@@ -1,0 +1,15 @@
+Day4:
+
+Aaj hum ne seekha ke Semantic HTML kya hota hai. Simple lafzon me semantic ka matlab hotaa hai “meaningful”. Yanii aise HTML tags joo khud bata dete hain ke unka kaam kya hai.
+ Semantic tags jaise <header>, <nav>, <main>, <section>, <article>, <footer> use karne se page zyada clear aur readable ban jata hai. Search engines aur browsers ko bhi samajhna easy ho jata hai.
+kuch tags jo hum ne aaj sekehn :
+<header>  Ya tag page ya section ka upar wala part hota hai  yahan pe title, logo ya intro hota hai.
+<nav> Ya wala tag navigation ke liye use hota hai jisme Home, About, Contact jese links hote hain.
+<main> Ya tag main content ke liye hota hai aur ek page me sirf ek hi main tag hota hai.
+<section>Ya tag  related content ko group karne ke liye hota hai jaise “About Me” ya “Services”.
+<article>Ya tag  independent content ke liya use hota hai  jaise ek blog post ya chhoti writing.
+<footer> Ya tag neeche wala part jisme mostly contact info ya copyright hota hai.
+Aaj ke task ka overview:
+Aaj ka task tha ek simple homepage banana jisme ye sare semantic tags sahi jagah use karne the.
+Tooo aaj ke task me hum ne <header> ka use kia jis me intro or title add kia . uske bad <nav> ka use kia jis me home , about , contact oor blog ka link add kia .
+<main> me section oor articles add kia or last me <footer> use kia his me contact info or copyright add kia .

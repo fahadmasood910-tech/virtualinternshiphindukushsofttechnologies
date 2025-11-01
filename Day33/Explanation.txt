@@ -1,0 +1,6 @@
+Day33:
+
+Aaaj main ne React kaa use karke ek simple Counter App with Theme Toggle banayee. Is project mein main ne seekha ke kaiise useState Hook se data ko store orr update kiya jata haii. Counter app mein main ne buttons banaye Increase, Decrease, orr Reset jinhaay click karne se count value real time mein update hoti haii. Iske alawa main ne ek Light orr Dark theme toggle feature bhi add kiiya jahan user ek button press karke app ka theme change kar sakta hai. Ye toggle React state ke zariye handle huaa, jahan condition lagayi gayi ke agar dark mode on ho to background dark ho jaye warna light.
+
+
+GitHub: https://github.com/fahadmasood910-tech/virtualinternshipbyhindukushsofttechnologies

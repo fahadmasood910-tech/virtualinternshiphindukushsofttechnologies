@@ -1,0 +1,6 @@
+Day8:
+
+
+Aaj humne CSS display orr positioning ke bare me seekha. Display me block, inline aur inline block samjhaa. Block element poori line lee leta hai, inline sirf apni zarurat ki space leta hai aur inline  block dono ka mix hotaa haii jisme width aur height bhi set kar sakte hain. 
+Phir positioning dekhi . 1. Static default hota hai. 2. Relative me element apni jagah par hota hai lekin thoda move kar sakte haiii. 3. Absolute parent ke hisaab se fix hota haii. Fixed hamesha ek jagah screen par dikhai deta haii orr sticky scroll karne par ek position par chipaak jata haii.
+Task me humne block, inline aur inline block boxes banayaa. Relative orr absolute box create kiya. Ek fixed box banaya jo neeche right corner me rehta haii, aur sticky header banaya jo scroll karte waqt oupar chipak gaya ( yani scroll karne ke bad bhi woh dekhye deta haii).

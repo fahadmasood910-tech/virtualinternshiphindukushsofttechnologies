@@ -1,0 +1,5 @@
+Day 2 : 
+Aj ke task me sabse pehli hum ne sekha ke html me kis tarha list bana sakete hain or list ke kitne qism hote hain to basically list two tarha ke hote hain ek to order list jis me items ka order importent hota hai is ke lia hum <ol> tag ka istimla karte hain or dusra wo list jis ke items ka order matter nahi karta us ke lia hum <ul> tag ka istima karte hain .
+Uske ke bad hum ne jana ke html me links kis tarha add kartai hian jis ke lia hum <a> tag ka use kia .
+Or iske ki bad text farmating ke bare me jane ke HTML mein kuch tags text ko highlight karne ke liye hote hain un me hai 1. <em>  jo kisei bhi text ko italic me change karta hai 2. <strong> is tag ke zaria hum kise bhi text ko bold karke likh sakte hain. 3 . or jab kise bhi text ko underlined karna ho to is tag ka use kia jata hai <u>
+Or last me hum ne <blockquote>  ko use kia , is tag ka istimal us waqt kia jata hai jab hum kise qoute ya kesi  ki kahi hue bat  ko apne code me add kar rahi hon 

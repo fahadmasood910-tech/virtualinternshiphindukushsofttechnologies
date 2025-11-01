@@ -1,0 +1,16 @@
+Day3:
+
+Aaj humne HTML mein do chezein seekhi Forms <form> or Tables <table>.
+Sab se pehle forms ke baare mein dekha ke web page par user se information lene ke liye form use hota hai. Jaise agr humen ek student ka data lena ho to uske liye hum name, email, phone number aur address ke liye alag alag input fields banate hain. Sath hi ek button hota hai jis se user apna data submit kar sakta hai.
+From banae ke lia hum ne in sare tags ka use kia :
+<form>  Form shuru yahn se hota haii
+<label> Field ka naam 
+<input> User input field 
+<textarea>  Multi line input 
+<button>  Submit button
+Uske baad humne tables ke bare mein seekha. Tables ka use data ko rows aur columns mein dikhane ke liye hota hai. Jaise agar humein ek timetable banana ho to pehle heading mein days aur timings likhte hain aur neeche har din ke subjects likh dete hain.
+<table>  Table shuru yahn se hota haiii
+<tr>  Table Row
+<th>  Table Header
+<td>  Table data 
+Yani aaj ka main idea yeh tha ke HTML ke zariye hum ek student ka form bana sakte hain jahan uska data collect ho or neche ek timetable jahan uske subjects aur timings saf nazar aaaayen.

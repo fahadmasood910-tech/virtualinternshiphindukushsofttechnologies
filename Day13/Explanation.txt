@@ -1,0 +1,9 @@
+Day13:
+
+
+Aaaj humne seekhaa ke Google homepage ka clone kaiise banaya jata hai using HTML  and  CSS.
+Sabse pehle humne header banaya jisme Gmail, Images, menu icon orr Sign in button add kiya . phir  humne samjhaa ke navigation links ko right side par kaise align karte hain orr is ke bad hum ne nagivation links ko right side pr align kia  css ko use karte huye orr jo sign in button hum ne add kia tha use bhi css se style dia .
+Uske baad humne main section banaya jisme Google ka logo, search box, orr do buttons  Google Search orr I’m Feeling Lucky add kiyaa.Is ke bad  humne input box ko style dia , style box ke  andar icons (search, mic, lens) add kiye orr dekha ke unko position absolute aur flex ke zariye kaise sahi jagah par set karte hain.
+Phir humne footer banayaa jismee country ka naam orr neeche links add kiaa (About, Advertising, Privacy, Terms, Settings ). 
+Aaaj ka main lesson yeh tha ke ek real world UI  yanii Google ka homepage clone karna tha . Isme humne semantic tags, flexbox alignment, positioning, orr buttons orr links ka styling seekhaa.  
+Aaaj ka task maine mainly HTML orr CSS ke zaria banaya is ke liaa  mujhe YouTube tutorials orr Google par UI clone ke examples dekh kar ideas miile. Sath he different concept ko samajhne ka liaa maine internet ka bhi intimal kiaa . 

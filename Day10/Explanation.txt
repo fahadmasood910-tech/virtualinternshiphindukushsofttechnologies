@@ -1,0 +1,6 @@
+Day10:
+
+
+Aaj humne ek complete portfolio website banayaa. Sabse pehle humne HTML ka structure create kiya jisme navigation bar, header, main sections aur footer add kiiya. Navigation bar ko sticky banaya aur usme responsive menu toggle bhi lagaya taake mobile view me easily use ho. 
+Header me image orr name add kiya phir About section me introduction likha. Education, Skills, Experience aur Projects ke sections me apni details dee. Skills ko table ki form me design kiya aur hover effect add kiya. Hobbies ke liye cards style banayi jisme har hobby ek box me show hoti hai. Languages aur Social links ke sections bhi add kiye. End me ek contact form banaya jisme name, email aur message fields rakhha .Styling ke liye CSS use kiya jisme colors, gradients, hover effects, responsive design aur box shadows lagaye. Orr ek chota JavaScript code likha jo mobile menu toggle karta hai. Is tarah se humne ek simple, responsive aur professional portfolio website banayi orr seekha ke HTML, CSS aur thoda JS mila kar ek proper project tayar kiya ja sakta haiiii. 
+

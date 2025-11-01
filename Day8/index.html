@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display and Positioning</title>
+    <style>
+    
+    .block-box {
+      display: block;
+      background: lightblue;
+      padding: 10px;
+      margin: 6px;
+      border: 2px solid black;
+    }
+
+    .inline-box {
+      display: inline;
+      background: lightgreen;
+      padding: 10px;
+      margin: 6px;
+      border: 2px solid black;
+    }
+
+    .inline-block-box {
+      display: inline-block;
+      background: lightcoral;
+      width: 150px;
+      height: 50px;
+      margin: 5px;
+      text-align: center;
+      line-height: 50px;
+      border: 2px solid black;
+    }
+
+ 
+    .relative-box {
+      position: relative;
+      top: 20px;   
+      left: 500px; 
+      right: px;
+      background: orange;
+      width: 150px;
+      height: 50px;
+      margin: 10px;
+      text-align: center;
+      line-height: 50px;
+      border: 2px solid black;
+    }
+
+    .absolute-box {
+      position: absolute;
+      top: 60px;
+      left: 200px;
+      background: violet;
+      width: 150px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      border: 2px solid black;
+    }
+
+    .fixed-box {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      background: black;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      border: 2px solid black;
+    }
+
+    .sticky-header {
+      position: sticky;
+      top: 0;
+      background: darkblue;
+      color: white;
+      padding: 12px;
+      text-align: center;
+      border: 2px solid black;
+    }
+
+   
+    .content {
+      height: 1500px;
+      background: linear-gradient(white, lightgray);
+    }
+  </style>
+</head>
+<body>
+      
+
+
+
+  <div class="sticky-header"> Sticky Header </div>
+
+  <h2>Display Practice</h2>
+  <div class="block-box">I am Block</div>
+  <span class="inline-box">I am Inline</span>
+  <span class="inline-box">I am Inline too</span>
+  <div class="inline-block-box">I am Inline Block </div>
+  <div class="inline-block-box">Me too</div>
+
+  <h2>Position Practice</h2>
+  <div class="relative-box">Relative Box</div>
+  <div class="absolute-box">Absolute Box</div>
+  <div class="fixed-box"> Chat Button</div>
+
+  <div class="content">
+     We have to Scroll down to see sticky header and fixed box in action
+  </div>
+
+
+
+
+
+
+</body>
+</html>

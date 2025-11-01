@@ -1,0 +1,9 @@
+Day14:
+
+Aaaj humne seekhaa ke YouTube clone ka UI kaise banaya jata haii using HTML and CSS.
+Sabse pehle humnee header banaya jisme left section me menu icon orr YouTube ka logo add kiya middle section me search bar + search button + voice search icon add kiya orr right section mee create button notification bell icon orr user profile icon design kiyaa.
+Usske baad humnee search input orr button ko CSS se style kiya jisme rounded corners, focus effect aur hover effect diiiyaa. Voice search button koo circle shape mee design kia aur hover pee background color change kiyaa. Create button ko bhi ek real button ki tarah banaya jisme plus icon aur text Create side by side rakhaa.
+Phir humne sidebar add ki jisme Home, trending, subscriptions, library, history, watch later, liked videos, settings orr help options rakhe. Sidebar ko responsive baanane ke liye media queries use kii .
+Uskee baad humne main section mee video grid banayaa. Har video ke liye thumbnail image, duration tag, channel icon, video title, channel name aur metadata (views + time) add kiyaa. Grid ko responsive banane ke liye CSS Grid orr media queries kaa use kiyaa. Thumbnail images par hover effect add kiya thumbnails ke liya humnee picsum webstite ka use kiaa . Orr es kii hum ne total 9 copies banaye har ek me diffrent thumbnail orr channel logo add kiya orr details add kiii .
+Aaj ka main lesson yeeh tha ke ek real world UI (YouTube clone) ko step by step banaate huye humne semantic tags, flexbox, CSS grid, hover effects, media queries orr responsive design kaa practical implementation seekhaa.
+Aaj ka task maine mainly HTML orr CSS kee zariya banaya. Iske leye maine apne ideas la use kiaa  YouTube kee UI ko closely observe kiya orr CSS ke concepts mazeed sekhen is ke alawa youtube orr internet se kuch naya concept bhi sekhen . 

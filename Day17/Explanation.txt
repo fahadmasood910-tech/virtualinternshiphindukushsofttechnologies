@@ -1,0 +1,5 @@
+Day17:
+
+Aaaj maine ek simple HTML page banaya jisme JavaScript kaa use karke ek voting eligibility checker program banayaa. Sabse pehle maine prompt() function kaa use kiya jisse user se directly input liiya jaa sakeee. Jab page open hota haii toh ek box aata haii jisme user apni age enter karta hai. Is  step se humne sekha  ke JavaScript me user se input lene ke liye prompt function use hota haii.
+Uske baad maine if else condition lagayaii. Isme program check karta haii kee agar age 18 ya us se zyada haii toh "You can vote" console me print hoo jata haii. Agar age 18 se kam hoti hai toh "You cannot vote" console me show hota haii. Isse maine seekha ke if condition true hone par code run hota hai aur agar false hoo toh else block ka code execute hotaa haii.
+Iss task se maine samjha ke JavaScript me if else ka istimal kai hota haii or  comparison operators jaise >= ka use karke numbers ko compare kaise karte haiin. Agar condition sahi ho toh ek result milta hai  agar galat hoo toh doosra. 

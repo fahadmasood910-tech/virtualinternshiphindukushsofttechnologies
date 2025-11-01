@@ -1,0 +1,6 @@
+Day20:
+
+Aaaj maine JavaScript ke andar ek To Do List project banayaa. Iss task me maine variables, functions, arrays, loops, orr conditionals sab use kiya jo hum ne pichelee task me sekhee the .
+Sabse pehle maine ek array (tasks) banayi jisme sab tasks store hote hain. Phir maine ek function addTask banaya joo input box se task leta haii orr array me add karta haii. Agar input khaali ho to ek if condition se alert show hota hai “ Please write something ” joo user koo batata haii ke task add karna haii .
+Uske baad maine ek loop lagayaa joo sab tasks ko ek ek karke show karta haii orr unke sath he ek delete button bhi add karta  hai jis se hum kise bhi task ko delete kar sakte hain . Jab delete button pe click hota hai to deleteTask function run hota hai jo array se wo task hata deta hai.
+Iss task se maine seekha ke JavaScript me data ko kaise store, show, orr delete karte hain orr ye sab functions orr loops ke through kaise control hota haii. Yeh mera ab tak ka sabse mazaydar aur useful project thaa . Orr is project ko karne ke lia maine Youtube or Online resources se madad lee orr apne concepts mazeed improve keya.

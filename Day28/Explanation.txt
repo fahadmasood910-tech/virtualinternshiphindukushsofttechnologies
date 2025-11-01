@@ -1,0 +1,3 @@
+Day28:
+
+Aaaj maine Steganography App (Part I  Layout) complete kiya jisme maine HTML orr CSS ka combined use kiiya. Is task mein maine ek simple layout design banaya jiisme do main sections hain ek image upload box orr doosra secret message box. Upload section mein user image choose kar sakta haii jabke message section mein apna secret message likhne ke liye text area diiya gaya haii. CSS ke zariye maine boxes ko white background, rounded corners, orr light shadow effect diya jisse layout clean orr professional lage. Iis task se maine seekha ke kaiise ek web app ka base layout design kiya jaata haii jisme structure clear responsive, orr easy to use hooo.

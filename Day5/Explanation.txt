@@ -1,0 +1,9 @@
+
+
+maine apna resume design kiya jisme maine pichle kuch dinon me seekhe gaye tamam HTML concepts shamil kiye. 
+Headings ke liye <h> tags ka sahara liya, tasveer add karne ke liye <img> ka use kiya, aur navigation 
+banane ke liye <nav> aur <table> tags istemal kiye. Skills ko dikhane ke liye bhi <table> dobara use kiya. Har section 
+jaise About Me, Education, Skills, Experience, Projects, Hobbies, Social Links, Languages aur Contact ko alag group karne 
+ke liye <section> ka use kiya. Lists organize karne ke liye <ul> aur <ol> tags ka faida uthaya. Aakhir me ek contact 
+form banaya <form> tag ke zariye. Yani ye resume aik complete project hai jisme mere sab concepts practice hue.
+

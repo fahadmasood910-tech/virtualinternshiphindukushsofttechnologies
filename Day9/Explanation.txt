@@ -1,0 +1,5 @@
+Day9:
+
+Aaj humne seekha kee responsive navigation bar kaise banate hain. Isme humne Flexbox ka use karke menu koo line me arrange karna sekhaa, jahan display, flex, justify content, orr align items se cheezen control hoti hain. Phir humne dekha ke desktop screen pe menu normally dikhai deta hai, orr mobile screen pe menu ko hide kar diya jata hai.
+Mobile view ke liye humne ek menu button (☰) banaya jo click karne par menu ko show ya hide karta hai. Iske liye hume JavaScript use kiaa, kyunke CSS sirf design orr layout control karta hai, lekin click action ko samajh nahi sakta. JavaScript se humne menu me ek class add/remove kii jo menu ko dikhata ya chupata hai.
+

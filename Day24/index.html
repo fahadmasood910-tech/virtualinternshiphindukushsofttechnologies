@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> GPA Calculator UI (Part I)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;background: #f4f4f4;text-align: center;margin-top: 40px;
+    }
+    h1 {
+      color: #333;
+    }
+    .container { background: white;padding: 20px;width: 350px; margin: auto; border-radius: 10px; box-shadow:  8px rgba(0.2);
+    }
+    input { width: 80%;padding: 5px;margin: 5px ; border-radius: 5px;border: 1px solid #aaa;
+    }
+    button {padding: 8px 15px;background: #007bff;color: white;border: none;border-radius: 5px;margin-top: 10px;cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    h2 {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>GPA Calculator</h1>
+  <div class="container">
+    <p>Enter GPA for each subject (out of 4.0):</p>
+    
+    <input type="number" id="sub1" placeholder="Subject 1 GPA" step="0.01" min="0" max="4"><br>
+    <input type="number" id="sub2" placeholder="Subject 2 GPA" step="0.01" min="0" max="4"><br>
+    <input type="number" id="sub3" placeholder="Subject 3 GPA" step="0.01" min="0" max="4"><br>
+    <input type="number" id="sub4" placeholder="Subject 4 GPA" step="0.01" min="0" max="4"><br>
+    <input type="number" id="sub5" placeholder="Subject 5 GPA" step="0.01" min="0" max="4"><br>
+    <input type="number" id="sub6" placeholder="Subject 6 GPA" step="0.01" min="0" max="4"><br>
+
+    <button onclick="calculateGPA()">Calculate GPA</button>
+    
+    <h2 id="result"></h2>
+  </div>
+  
+      <script>
+           function calculateGPA() {
+      
+         let s1 = parseFloat(document.getElementById('sub1').value) || 0;
+         let s2 = parseFloat(document.getElementById('sub2').value) || 0;
+         let s3 = parseFloat(document.getElementById('sub3').value) || 0;
+         let s4 = parseFloat(document.getElementById('sub4').value) || 0;
+         let s5 = parseFloat(document.getElementById('sub5').value) || 0;
+         let s6 = parseFloat(document.getElementById('sub6').value) || 0;
+
+  
+      let total = s1 + s2 + s3 + s4 + s5 + s6;
+      let gpa = total / 6;
+
+   
+      document.getElementById('result').innerText = "Your GPA: " + gpa.toFixed(2);
+    }
+  </script>
+
+</body>
+</html>

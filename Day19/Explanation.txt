@@ -1,0 +1,3 @@
+Day19:
+
+Aaj maine JavaScript me ek shopping list banaye joo console me show hotii haii. Maine pehle ek array banaya jisme items store kiya jaise Milk, Bread, Eggs, Tomatos, Butter orr Apples. Fir maine console.log() se heading print kie aur ek for loop use kiya joo list ke har item ko number ke sath print karta haii. Loop automatically har element par chalta hai orr (i+1) numbering ke liye use kiya. Is tarah ek proper shopping list console me show hotii haii. Is task se maine arrays orr loops ko simple tareeke se samjhaaa.

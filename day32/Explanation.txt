@@ -1,0 +1,5 @@
+Day32:
+
+Aaaj main nay reusable React components bananay par kaam kiiya oor seekha kay Props kaise kaam kartay hain. Mainay teen alag components banaye Header, Footer, orr UserCard taakay ek simple React application ki layout ko organize kiya ja sakay. Header orr Footer components top orr bottom par fixed sections ko show karnay ke liye banaye thay, jabkay UserCard component mein user ki details jaise naam orr role display kiya gaya. Mainay ye data Props ke zariye pass kiya, jis say mujhay samajh aaya kay React mein data ek component say dusray component mein kaise jata hai. Is kaam say mujhay component based structure ki importance, code ko dobara istemal karne ka fayda, orr dynamic rendering ke liye props ke istemal ka knowledge mila. 
+
+https://github.com/fahadmasood910-tech/virtualinternshipbyhindukushsofttechnologies

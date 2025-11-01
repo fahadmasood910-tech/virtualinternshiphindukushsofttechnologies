@@ -1,0 +1,5 @@
+Day7:
+
+Aaaj humne HTML aur CSS mein Box Model ke baare mein seekha Box model ka matlab hai ke web page ka haar element ek box ki tarah hota hai. Uske andar content hota hai phir uske charo taraf padding hoti hai jo content aur border ke beech ka gap hota haiii. Uske baad border aata hai jo box ka outer line hotaa haii. Aur sabse bahar hota hai margin jo doosre elements ke sath distance banata hai.
+Iske aalawa humne seekha ke width aur height kaise set karte hain yani box kii lambai aur chouurai.
+Phir task ke taur par humne apne hobbies section ke liye styled cards banaaya. Matlab har hobby (football, cricket, hiking, etc ) ko ek card jaisa box banayaa jisme margin, padding aur border use kiya  taake wo neat orr attractive laage.

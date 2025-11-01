@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPA Calculator (Part II)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;background: #f4f4f4;text-align: center;margin: 0;padding: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    .container {
+         background: white; padding: 20px;width: 90%;max-width: 400px;margin: auto;border-radius: 10px;box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input {
+      width: 80%;padding: 8px;margin: 5px 0;border-radius: 5px;border: 1px solid #aaa;
+    }
+    button {
+        padding: 10px 20px;background: #007bff;color: white;border: none;border-radius: 5px;margin-top: 10px;cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    h2 {
+      color: green;
+    }
+    .credit-input {
+      width: 60px;margin-left: 5px;
+    }
+    @media (max-width: 600px) {
+      .container {
+        width: 100%;padding: 15px;
+      }
+      input {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>GPA Calculator</h1>
+  <div class="container">
+    <p>Enter GPA and Credit Hours for each subject:</p>
+
+    <div>
+      <input type="number" id="sub1" placeholder="Subject 1 GPA" step="0.01" min="0" max="4">
+      <input type="number" id="cr1" class="credit-input" placeholder="Cr"><br>
+      <input type="number" id="sub2" placeholder="Subject 2 GPA" step="0.01" min="0" max="4">
+      <input type="number" id="cr2" class="credit-input" placeholder="Cr"><br>
+      <input type="number" id="sub3" placeholder="Subject 3 GPA" step="0.01" min="0" max="4">
+      <input type="number" id="cr3" class="credit-input" placeholder="Cr"><br>
+      <input type="number" id="sub4" placeholder="Subject 4 GPA" step="0.01" min="0" max="4">
+      <input type="number" id="cr4" class="credit-input" placeholder="Cr"><br>
+      <input type="number" id="sub5" placeholder="Subject 5 GPA" step="0.01" min="0" max="4">
+      <input type="number" id="cr5" class="credit-input" placeholder="Cr"><br>
+      <input type="number" id="sub6" placeholder="Subject 6 GPA" step="0.01" min="0" max="4">
+      <input type="number" id="cr6" class="credit-input" placeholder="Cr"><br>
+    </div>
+
+    <button onclick="calculateGPA()">Calculate GPA</button>
+    
+    <h2 id="result"></h2>
+  </div>
+
+  <script>
+    function calculateGPA() {
+     let gpas = [
+           parseFloat(document.getElementById('sub1').value) || 0,
+           parseFloat(document.getElementById('sub2').value) || 0,
+           parseFloat(document.getElementById('sub3').value) || 0,
+           parseFloat(document.getElementById('sub4').value) || 0,
+           parseFloat(document.getElementById('sub5').value) || 0,
+           parseFloat(document.getElementById('sub6').value) || 0
+      ];
+ let credits = [
+        parseFloat(document.getElementById('cr1').value) || 0,
+        parseFloat(document.getElementById('cr2').value) || 0,
+        parseFloat(document.getElementById('cr3').value) || 0,
+        parseFloat(document.getElementById('cr4').value) || 0,
+        parseFloat(document.getElementById('cr5').value) || 0,
+        parseFloat(document.getElementById('cr6').value) || 0
+      ];
+    let totalPoints = 0;
+      let totalCredits = 0;
+      for (let i = 0; i < 6; i++) {
+         totalPoints += gpas[i] * credits[i];
+         totalCredits += credits[i];
+      }
+      let finalGPA = totalPoints / totalCredits;
+        if (totalCredits === 0) {
+          document.getElementById('result').innerText = "Please enter valid credit hours.";
+      } else {
+          document.getElementById('result').innerText = "Your Final GPA: " + finalGPA.toFixed(2);
+      }
+    }
+  </script>
+  </body>
+</html>

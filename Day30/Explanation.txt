@@ -1,0 +1,5 @@
+Day30:
+
+Aaaj maine apne saare completed projects review kiiye unmein small bugs orr design issues check kiye orr unhe polish kiya taake sab properly kaam karain. Iske baad maine seekha ke GitHub pe apne projects kaise upload karte hain. Maine har project ke liye ek separate repository banai orr usmein apne files (HTML, CSS, JS) upload kiiyaa. Is process ke zariye mujhe samajh aaya ke version control orr portfolio management kitna important hai. Ye task ne mujhe sikhaya ke apne kaam ko organize karna review karna orr showcase karna professional workflow ka ek essential part haii. Ab mere projects GitHub pe safely stored hain orr main unhe easily share kar sakta hoon.
+
+https://github.com/fahadmasood910-tech

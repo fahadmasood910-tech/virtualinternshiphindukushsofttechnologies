@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Clone by Fahad Masood</title>
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', Arial, sans-serif;
+    }
+
+    body {
+
+       background-color: #f9f9f9;
+       color: #030303;
+    }
+
+    a {
+
+        text-decoration: none;
+        color: inherit;
+    }
+
+ 
+    header {
+
+       display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 0 16px;
+        height: 56px;
+         background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+         border-bottom: 1px solid #e5e5e5;
+
+    }
+
+      .left-section {
+
+        display: flex;
+          align-items: center;
+
+    }
+
+    .menu-icon {
+
+      padding: 8px;
+      margin-right: 16px;
+      cursor: pointer;
+
+    }
+
+      .youtube-logo {
+
+        height: 20px;
+        cursor: pointer;
+
+    }
+
+    .middle-section {
+
+      display: flex;
+      align-items: center;
+       flex: 0 1 728px;
+       max-width: 728px;
+
+    }
+     
+      
+
+       .search-container {
+
+         display: flex;
+          flex: 1;
+    }
+
+    .right-section {
+
+      display: flex;
+      align-items: center;
+
+    }
+
+
+  .search-input {
+
+     flex: 1;
+     height: 40px;
+     padding: 0 12px;
+     border: 1px solid #ccc;
+     border-radius: 20px 0 0 20px;
+     font-size: 14px;
+     outline: none;
+     transition: all 0.2s ease;
+
+}
+
+   .search-input:focus {
+
+    border-color: #1a73e8;
+     box-shadow: 0 0 4px rgba(26,115,232,0.4);
+
+}
+
+.search-button {
+
+  height: 40px;
+
+  width: 64px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 20px 20px 0;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  transition: background 0.2s ease;
+
+}
+
+    .search-button:hover {
+
+    background-color: #e8e8e8;
+
+}
+
+.voice-search {
+
+  margin-left: 8px;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background-color: #f8f8f8;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   transition: background-color 0.2s ease;
+}
+
+.voice-search:hover {
+
+  background-color: #e6e6e6;
+}
+
+.voice-search img {
+
+     width: 30px;   
+      height: 30px;  
+      object-fit: contain;  
+}
+
+
+.create-button {
+
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  margin: 0 12px;
+  border-radius: 18px;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid #dcdcdc;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  height: 36px;
+}
+
+.create-button:hover {
+
+  background-color: #e6e6e6;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.plus-icon {
+
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.icon {
+
+  width: 40px;            
+  height: 40px;
+  border-radius: 50%;      
+  display: flex;
+  align-items: center;      
+  justify-content: center;  
+  background-color: #f2f2f2; 
+  cursor: pointer;        
+  transition: background 0.3s ease;
+}
+
+.icon:hover {
+
+  background-color: #e0e0e0; 
+}
+
+.icon img {
+
+  width: 40%;    
+  height: 40%;
+  object-fit: contain;  
+}
+
+    
+    .user-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background-color: #065fd4;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      margin-left: 25px;
+      cursor: pointer;
+    }
+
+    .sidebar {
+
+      width: 220px;
+      background-color: white;
+      position: fixed;
+      top: 56px;
+      left: 0;
+      bottom: 0;
+      padding-top: 12px;
+      overflow-y: auto;
+    }
+
+    .sidebar-item {
+
+      display: flex;
+      align-items: center;
+      padding: 0 24px;
+      height: 40px;
+      cursor: pointer;
+    }
+
+    .sidebar-item:hover {
+
+         background-color: #f2f2f2;
+    }
+
+    .sidebar-item.active {
+
+      background-color: #e5e5e5;
+      font-weight: 500;
+
+    }
+
+    
+    .sidebar-divider {
+
+      height: 2px;
+      background-color: #e5e5e5;
+      margin: 12px 0;
+    }
+
+    main {
+
+      margin-top: 56px;
+      margin-left: 240px;
+      padding: 24px;
+    }
+
+    .video-grid {
+
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+
+    }
+
+    .video-card {
+
+      cursor: pointer;
+    }
+
+    .thumbnail {
+
+      position: relative;
+      margin-bottom: 12px;
+
+    }
+
+    .thumbnail-image {
+
+      width: 100%;
+      height: auto;
+      border-radius: 9px;
+    }
+
+    .video-duration {
+
+      position: absolute;
+      bottom: 8px;
+      right: 8px;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 2px 4px;
+      border-radius: 2px;
+      font-size: 12px;
+
+    }
+
+    .video-info {
+
+      display: flex;
+
+    }
+
+    .channel-icon {
+
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background-color: #aaa;
+      margin-right: 12px;
+      flex-shrink: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-weight: bold;
+
+    }
+
+
+.thumbnail-image {
+
+        transition: transform 0.2s ease;
+}
+
+.thumbnail-image:hover {
+
+  transform: scale(1.02);
+}
+
+
+
+
+.channel-name:hover {
+
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+    .video-details {
+
+      flex: 1;
+    }
+
+    .video-title {
+
+       font-weight: 500;
+      margin-bottom: 4px;
+        display: -webkit-box;
+      
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+
+    }
+
+       .channel-name {
+
+        color: #606060;
+         font-size: 14px;
+         margin-bottom: 4px;
+
+    }
+
+    .video-metadata {
+
+      color: #606060;
+      font-size: 14px;
+
+    }
+
+    
+    @media (max-width: 1200px) {
+
+      .sidebar {
+        width: 74px;
+      }
+      main {
+        margin-left: 72px;
+      }
+      .sidebar-item span {
+        display: none;
+      }
+      .sidebar-icon {
+        margin-right: 0;
+      }
+    }
+
+    @media (max-width: 800px) {
+      .video-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      }
+    }
+
+    @media (max-width: 600px) 
+    {
+      .sidebar {
+        display: none;
+      }
+      main {
+        margin-left: 0;
+      }
+      .search-container {
+        display: none;
+      }
+    }
+  
+  
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="left-section">
+      <div class="menu-icon">☰</div>
+      <a href="#">
+        <img class="youtube-logo" src="youtubelogo.svg" alt="YouTube Logo">
+      </a>
+    </div>
+
+     <div class="middle-section">
+      <div class="search-container">
+        <input type="text" class="search-input" placeholder="Search">
+        <button class="search-button"><img src="search.png" alt="search icon "></button>
+       </div>
+       <div class="voice-search"><img src="youtubemic.png" alt="Youtube mic icon "></div>
+     </div>
+
+     <div class="right-section">
+    <div class="create-button"><span class="plus-icon">＋</span>Create</div>
+  <div class="icon"><img src="youtubebellicon.png" alt="Youtube bell icon "></div>
+  <div class="user-icon">U</div>
+</div>
+
+  </header>
+
+  
+<aside class="sidebar">
+  <div class="sidebar-item active"><span>Home</span></div>
+  <div class="sidebar-item"><span>Trending</span></div>
+  <div class="sidebar-item"><span>Subscriptions</span></div>
+  <div class="sidebar-divider"></div>
+  <div class="sidebar-item"><span>Library</span></div>
+  <div class="sidebar-item"><span>History</span></div>
+  <div class="sidebar-item"><span>Your videos</span></div>
+  <div class="sidebar-item"><span>Watch later</span></div>
+  <div class="sidebar-item"><span>Liked videos</span></div>
+  <div class="sidebar-divider"></div>
+  <div class="sidebar-item"><span>Settings</span></div>
+  <div class="sidebar-item"><span>Help</span></div>
+</aside>
+
+
+ 
+   <main>
+        <div class="video-grid">
+           
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="https://picsum.photos/320/180?random=1" alt="Video thumbnail">
+                    <div class="video-duration">10:25</div>
+                </div>
+                <div class="video-info">
+                    <img class="channel-icon" src="hindukush soft.png" alt="Channel Icon">
+
+                    <div class="video-details">
+                        <div class="video-title">How to build a YouTube clone with HTML and CSS</div>
+                        <div class="channel-name">Hindukush soft</div>
+                        <div class="video-metadata">245K views • 2 days ago</div>
+                    </div>
+                </div>
+            </div>
+            
+          
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="https://picsum.photos/320/180?random=2" alt="Video thumbnail">
+                    <div class="video-duration">15:42</div>
+                </div>
+                <div class="video-info">
+                  <img class="channel-icon" src="fahim copy.jpg" alt="Channel Icon">
+
+                    <div class="video-details">
+                        <div class="video-title">Top 10 html tips for beginners</div>
+                        <div class="channel-name">Fahim tech</div>
+                        <div class="video-metadata">512K views • 1 week ago</div>
+                    </div>
+                </div>
+            </div>
+         
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="https://picsum.photos/320/180?random=3" alt="Video thumbnail">
+                    <div class="video-duration">8:17</div>
+                </div>
+                <div class="video-info">
+                    <img class="channel-icon" src="fahad.jpg" alt="Channel Icon">
+
+                    <div class="video-details">
+                        <div class="video-title">Future of Ai</div>
+                        <div class="channel-name">code with Fahad</div>
+                        <div class="video-metadata">189K views • 3 days ago</div>
+                    </div>
+                </div>
+            </div>
+            
+           
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="https://picsum.photos/320/180?random=4" alt="Video thumbnail">
+                    <div class="video-duration">22:05</div>
+                </div>
+                <div class="video-info">
+                 <img class="channel-icon" src="panther.jpg" alt="Channel Icon">
+
+                    <div class="video-details">
+                        <div class="video-title">Web development roadmap for 2023</div>
+                        <div class="channel-name">Webmaster shan</div>
+                        <div class="video-metadata">1.2M views • 1 month ago</div>
+                    </div>
+                </div>
+            </div>
+            
+         
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="https://picsum.photos/320/180?random=5" alt="Video thumbnail">
+                    <div class="video-duration">12:33</div>
+                </div>
+                <div class="video-info">
+                <img class="channel-icon" src="strange.jpg" alt="Channel Icon">
+
+                    <div class="video-details">
+                        <div class="video-title">CSS Grid vs Flexbox - When to use which</div>
+                        <div class="channel-name">CSS ustaz</div>
+                        <div class="video-metadata">324K views • 2 weeks ago</div>
+                    </div>
+                </div>
+            </div>
+            
+           
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="https://picsum.photos/320/180?random=6" alt="Video thumbnail">
+                    <div class="video-duration">18:47</div>
+                </div>
+                <div class="video-info">
+         <img class="channel-icon" src="waqass.png" alt="Channel Icon">
+
+                    <div class="video-details">
+                        <div class="video-title">Building a responsive website from scratch</div>
+                        <div class="channel-name">Waqas develop</div>
+                        <div class="video-metadata">421K views • 5 days ago</div>
+                    </div>
+                </div>
+            </div>
+            
+       
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="https://picsum.photos/320/180?random=7" alt="Video thumbnail">
+                    <div class="video-duration">7:52</div>
+                </div>
+                <div class="video-info">
+                  <img class="channel-icon" src="spidy.jpg" alt="Channel Icon">
+
+                    <div class="video-details">
+                        <div class="video-title">Python automation for beginners</div>
+                        <div class="channel-name">Pro Spidy</div>
+                        <div class="video-metadata">156K views • 4 days ago</div>
+                    </div>
+                </div>
+            </div>
+            
+          
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="https://picsum.photos/320/180?random=8" alt="Video thumbnail">
+                    <div class="video-duration">14:21</div>
+                </div>
+                <div class="video-info">
+               <img class="channel-icon" src="thanos.jpg" alt="Channel Icon">
+
+                    <div class="video-details">
+                        <div class="video-title">Database design best practices</div>
+                        <div class="channel-name">Shahhatatm tech</div>
+                        <div class="video-metadata">278K views • 1 week ago</div>
+                    </div>
+                </div>
+            </div>
+        
+
+      
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="https://picsum.photos/320/180?random=9" alt="Video thumbnail">
+                    <div class="video-duration">13:01</div>
+                </div>
+                <div class="video-info">
+              <img class="channel-icon" src="fahad.jpg" alt="Channel Icon">
+
+                    <div class="video-details">
+                        <div class="video-title">How to clone youtube using html & css ?</div>
+                        <div class="channel-name">Code with Fahad </div>
+                        <div class="video-metadata">560K views • 5 week ago</div>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </main>
+
+</body>
+</html>

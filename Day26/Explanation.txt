@@ -1,0 +1,3 @@
+Day26:
+
+Aaaj maine One Page Portfolio (Part I) ka layout complete kiya jisme maine HTML, CSS orr JavaScript tino ko combine karke ek simple portfolio website banayi. Isme maine apna name, profile picture, About, Skills, Projects orr Contact sections include kiye. CSS ke zariye maine page ko clean orr attractive design diya orr JavaScript ke zariye ek chhota interactive button add kiya jo click karne par welcome message show karta hai. Iss task se maine seekha ke kaise HTML se structure, CSS se design orr JS se functionality milkar ek complete webpage banta hai.

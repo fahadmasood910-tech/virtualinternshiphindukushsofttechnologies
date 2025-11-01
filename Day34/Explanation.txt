@@ -1,0 +1,6 @@
+Day34:
+
+Aaaj main ne React ka use karke ek Input Form with Live Preview banaya. Is project mein main ne seekha ke kaiise user input ko real time mein show kiya jata haii React ke onChange event orr useState Hook ke zariye.Main ne ek input box banaya jahan user kuch bhi likh sakta haii, orr jaise hi user type karta haii, wohi text turant neeche preview ke form mein display hota haii. Is ke liye main ne useState ka use karke ek state variable (text) banaya jo har key press par update hota haii. Is project ne mujhe sikhaya ke React mein events kaise handle hote hain, data ko state ke zariye kaise manage kiya jata hai, orr components ko interactive orr dynamic kaise banaya jata hai.
+
+
+GitHub: https://github.com/fahadmasood910-tech/virtualinternshipbyhindukushsofttechnologies

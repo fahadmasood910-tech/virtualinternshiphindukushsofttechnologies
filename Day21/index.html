@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning DOM </title>
+</head>
+
+<body>
+
+  <h1 id="heading1">The Moon </h1>
+  <p class="paragraph">
+    The Moon is Earth's only natural satellite. It reflects the light of the Sun, controls ocean tides, and completes one orbit around Earth in about 27 days.
+  </p>
+
+     <button onclick="changeContent()">Change to Sun</button>
+ 
+       <script>
+      let showingMoon = true; 
+
+      function changeContent() {
+      let title = document.getElementById("heading1");
+      let para = document.querySelector(".paragraph");
+      let btn = document.querySelector("button");
+
+         if (showingMoon) {
+          title.innerHTML = "The Sun";
+          para.innerHTML = "The Sun is a huge glowing star at the center of our solar system. It gives us light, warmth, and energy that makes life on Earth possible.";
+          btn.innerHTML = "Change to Moon";
+          showingMoon = false;
+        } else {
+          title.innerHTML = "The Moon ";
+          para.innerHTML = "The Moon is Earth's only natural satellite. It reflects sunlight, affects ocean tides, and completes one orbit around Earth in about 27 days.";
+           btn.innerHTML = "Change to Sun";
+          showingMoon = true;
+        }
+     }
+    </script>
+</body>
+</html>

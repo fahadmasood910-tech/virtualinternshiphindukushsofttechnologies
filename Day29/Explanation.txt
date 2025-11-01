@@ -1,0 +1,4 @@
+Day29:
+
+Aaaj maine Steganography App (Part II  Logic) complete kiya jisme maine JavaScript ka use karke ek simple encoding orr decoding system banaya. Is version mein user ek image upload kar sakta haii apna secret message likh kar Encode Message button se usse hide kar sakta haii orr Decode Message button se wapas woh hidden message dekh sakta hai.Pehle part mein maine sirf layout banaya tha, lekin is part mein maine decoding ka feature bhi add kiya jisse app poori tarah functional ho gayii.
+Maine FileReader() ka use karke uploaded image ka preview show karwaya orr DOM manipulation ke zariye user ke input orr output ko manage kiya. Ye project ek simple orr practical example tha ke kaise JavaScript ke basic logic se ek interactive orr real working app banayaa ja sakti hai.

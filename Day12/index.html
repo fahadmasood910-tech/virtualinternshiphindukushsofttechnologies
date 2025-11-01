@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive 3 Column Gallery</title>
+  <style>
+
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+
+    header {
+      text-align: center;
+      padding: 22px;
+      background: linear-gradient(90deg, #002244, #004488);
+      color: white;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+ 
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      padding: 22px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      transition: transform 0.4s;
+    }
+
+ 
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Responsive 3 Column Gallery</h1>
+     <p>Here is a responsive 3 column Gallery</p>
+  </header>
+
+  <div class="gallery">
+    <img src="https://picsum.photos/400/300?random=1" alt="Gallery Image 1">
+    <img src="https://picsum.photos/400/300?random=2" alt="Gallery Image 2">
+    <img src="https://picsum.photos/400/300?random=3" alt="Gallery Image 3">
+    <img src="https://picsum.photos/400/300?random=4" alt="Gallery Image 4">
+    <img src="https://picsum.photos/400/300?random=5" alt="Gallery Image 5">
+    <img src="https://picsum.photos/400/300?random=6" alt="Gallery Image 6">
+    <img src="https://picsum.photos/400/300?random=7" alt="Gallery Image 7">
+    <img src="https://picsum.photos/400/300?random=8" alt="Gallery Image 8">
+    <img src="https://picsum.photos/400/300?random=9" alt="Gallery Image 9">
+    <img src="https://picsum.photos/400/300?random=10" alt="Gallery Image 10">
+    <img src="https://picsum.photos/400/300?random=11" alt="Gallery Image 11">
+    <img src="https://picsum.photos/400/300?random=12" alt="Gallery Image 12">
+  </div>
+
+</body>
+</html>

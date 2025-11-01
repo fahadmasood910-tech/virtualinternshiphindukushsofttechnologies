@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fahad Masood - Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      background: linear-gradient(90deg, #002244, #004488, #0066cc);
+      z-index: 1000;
+      padding: 18px 0;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    }
+    .nav-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      list-style: none;
+    }
+    .nav-links li {margin: 0 20px;
+    }
+    .nav-links a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: 10px;
+      transition: 0.3s;
+    }
+    .nav-links a:hover {color: #ffcc00;
+    }
+    .menu-toggle {
+      display: none;
+      font-size: 28px;
+      cursor: pointer;
+      color: white;
+      padding: 10px;
+      text-align: right;
+    }
+    @media (max-width: 768px) {
+      .nav-links {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+        background: #003366;
+        text-align: center;
+      }
+      .nav-links.active { display: flex; }
+      .menu-toggle { display: block; padding-right: 20px; }
+    }
+    header {
+      background: linear-gradient(135deg, #002244, #004488, #0066cc);
+      color: white;
+      text-align: center;
+      padding: 40px 20px 20px 20px;
+    }
+    header img {
+      border-radius: 15px;
+      max-width: 250px;
+      height: auto;
+      margin-bottom: 15px;
+      border: 4px solid #fff;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    }
+    header h1 {
+      font-size: 34px;
+      margin-top: 10px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    main {
+      max-width: 1150px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+    section {
+      margin: 50px 0;
+      text-align: left; 
+    }
+    h3 {
+      color: #003366;
+      font-size: 24px;
+      margin-bottom: 15px;
+      border-left: 6px solid #003366;
+      padding-left: 10px;
+    }
+    p {text-align: justify;margin-bottom: 15px;
+    }
+    blockquote {
+      font-style: italic;
+      background: #e6f0ff;
+      border-left: 5px solid #003366;
+      padding: 10px;
+      margin: 20px 0;
+    }
+   table {
+  width: 90%;  
+  margin: 40px auto; 
+  border-collapse: collapse;
+  background: #ffffff;
+  border: 2px solid #003366; 
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px; 
+  overflow: hidden;   
+}
+th {
+  background: linear-gradient(135deg, #002244, #004488);
+  color: white;
+  padding: 12px 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid #003366; 
+  text-align: center;
+}
+td {
+  padding: 12px 15px;
+  border: 1px solid #003366; 
+  text-align: center;
+  font-size: 15px;
+  color: #333;
+}
+tr:nth-child(even) {
+  background: #f4f8ff;
+}
+tr:hover { background: #dce9ff; transition: 0.3s;
+}
+    .hobbies-container {display: flex;flex-wrap: wrap;gap: 15px;
+    }
+    .myhobbies {
+      border: 2px solid #003366; 
+      width: 300px;
+       padding: 12px;
+        margin: 10px auto;
+         border-radius: 10px; 
+         background: #e6f0ff; 
+         transition: 0.3s;
+    }
+    .myhobbies:hover {background: #d0e0ff;transform: translateY(-5px);
+    }
+    form {
+      background: #e6f0ff;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+    }
+    form input, form textarea {
+      width: 95%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background: #003366;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    form button:hover { background: darkred;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+ </style>
+
+</head>
+<body>
+
+
+  <nav>
+    <div class="menu-toggle">☰</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#languages">Languages</a></li>
+      <li><a href="#social">Social</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <header>
+    <img src="photo.jpg" alt="Fahad">
+    <h1>Fahad Masood</h1>
+  </header>
+  <main>
+    <section id="about">
+      <h3>Introduction</h3>
+       <p>My name is Fahad Masood, and I belong to the beautiful village of 
+                    Ayun, Chitral. I am currently a student in the second semester of
+                     BS Computer Science at Government Degree College Chitral. Since the
+                      beginning of my academic journey i have always been curious about
+                       learning and exploring new areas of knowledge and Computer Science
+                        has opened many exciting doors for me to grow both intellectually 
+                        and personally. Outside of academics i try to keep a balanced life. 
+                        I have a strong passion for sports like football and cricket, as they
+                         not only keep me active but also teach me teamwork and discipline.
+                          I also enjoy reading books, which broaden my perspective, and writing 
+                          poetry, which allows me to express my emotions and creativity. Traveling
+                           gives me the opportunity to explore new places and cultures, while boxing 
+                           and hiking challenge me to stay strong, motivated, and connected to nature. </p>
+      <blockquote>“When you want something, all the universe conspires in helping you to achieve it.”</blockquote>
+    </section>
+
+  
+    <section id="education">
+      <h3>Education</h3>
+      <ul>
+        <li><b>BS Computer Science:</b> Government College Chitral</li>
+        <li><b>FSC:</b> Higher Secondary School Ayun</li>
+      </ul>
+    </section>
+
+ 
+    <section id="skills">
+      <h3>Skills & Expertise</h3>
+      <table>
+        <td>Web Development:</td>
+                    <td>HTML, CSS, Wordpress</td>
+                </tr>
+                <tr>
+                    <td>Ecommerce:</td>
+                    <td>Whole sale, Dropshiping</td>
+                </tr>
+                <tr>
+                    <td>Digital Marketing: </td>
+                    <td>Facebook, Instagram, Blockspot</td>
+                </tr>
+                <tr>
+                    <td>Graphic Designing: </td>
+                    <td>Photoshop, Canva</td>
+                </tr>
+                <tr>
+                    <td>Video Editing: </td>
+                    <td>Capcut, PremierPro</td>
+                </tr>
+                <tr>
+                    <td>Problem Solving:</td>
+                    <td>Analytical thinking</td>
+                </tr>
+                <tr>
+                    <td>Teamwork:</td>
+                    <td>Cooperative team player</td>
+                </tr>
+                <tr>
+                    <td>Leadership:</td>
+                    <td>Leading teams and projects</td>
+                </tr>
+                <tr>
+                    <td>Creativity:</td>
+                    <td>Ability to generate new ideas</td>
+      </table>
+    </section>
+
+ 
+    <section id="experience">
+      <h3>Work Experience</h3>
+      <ul>
+      <li><b>Project Lead SapienShift: </b><em> leading a Non-profit Organization.</em></li>
+            <li><b>E-Commerce (Dropshipping): </b><em> Managed and operated an online dropshipping store, handling product research, digital marketing, and customer service.</em></li>
+             <li><b>Frontend Development Intern: </b><em> Virtual intern at HindukushSoft Technologies</em></li>
+      </ul>
+    </section>
+
+  
+    <section id="projects">
+      <h3>Projects</h3>
+    
+      <ul>
+      <li><b>Shoclarship Sessions: </b><em>We conduct scholarship and opportunity awareness session at different educational institutions.</em></li>
+                <li><b>Seminars & Sessions: </b><em>SapienShift intends to conduct seminars and sessions on different global problems on local communities and educational instituitions.</em></li>
+                <li><b>Free Online Resources: </b><em>Through our plateform we intent to provide tons of free educational courses covering vast domain.</em></li>
+      </ul>
+    </section>
+
+ 
+    <section id="hobbies">
+      <h3>Hobbies</h3>
+      <div class="hobbies-container">
+        <div class="myhobbies"> Sports: Cricket & Football</div>
+        <div class="myhobbies">Hiking & Exploring Nature</div>
+        <div class="myhobbies"> Reading Books</div>
+        <div class="myhobbies"> Poetry</div>
+        <div class="myhobbies"> Traveling</div>
+        <div class="myhobbies"> Boxing</div>
+      </div>
+    </section>
+
+
+    <section id="languages">
+      <h3>Languages</h3>
+      <ol>
+        <li>Khowar - Advanced</li>
+        <li>English - Very Good</li>
+        <li>Urdu - Very Good</li>
+        <li>Pashto - Good</li>
+      </ol>
+    </section>
+
+    
+    <section id="social">
+      <h3>Social Links</h3>
+      <ul>
+        <li><a href="https://www.instagram.com/fahad___masood">Instagram</a></li>
+        <li><a href="https://www.facebook.com/fahad.masood.7393">Facebook</a></li>
+      </ul>
+    </section>
+
+ 
+    <section id="contact">
+      <h3>Contact Me</h3>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Fahad Masood | Portfolio</p>
+  </footer>
+
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

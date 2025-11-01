@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <style>
+    body {
+         font-family: Arial, sans-serif;
+         margin: 0;
+         padding: 0;
+         background: #f3f4f6;
+    }
+       header {
+       background-color: #4b6cb7;
+       color: white;
+       text-align: center;
+       padding: 20px;
+    }
+       .profile-pic {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid white;
+        margin-top: 10px;
+    }
+       section {
+         background: white;
+         width: 90%;
+         max-width: 800px;
+         margin: 20px auto;
+         padding: 20px;
+         border-radius: 8px;
+    }
+
+    h2 {
+      color: #4b6cb7;
+    }
+         footer {
+           text-align: center;
+           background: #4b6cb7;
+           color: white;
+           padding: 10px;
+           margin-top: 20px;
+    }
+           button {
+              padding: 8px 15px;
+              background: #4b6cb7;
+              color: white;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+    }
+        button:hover {
+         background: #3956a3;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Fahad Masood</h1>
+    <p>BS Computer Science Student | Web Learner | Intern</p>
+
+    <img src="fahad.jpg" alt="My Photo" class="profile-pic">
+  
+  </header>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>My name is Fahad Masood. I am currently learning web development during my internship. I enjoy creating simple and clean web designs using HTML, CSS, and JavaScript.</p>
+     <button onclick="showMessage()">Click Me</button>
+</section>
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript (Basic)</li>
+      <li>C++</li>
+      <li>Cybersecurity (Learning)</li>
+    </ul>
+  </section>
+     <section id="projects">
+       <h2>Projects</h2>
+       <p>• GPA Calculator (using HTML, CSS, JS)</p>
+       <p>• Portfolio Layout (this project)</p>
+      </section>
+
+       <section id="contact">
+       <h2>Contact</h2>
+       <p>Email: fahadmasood910@gmail.Com</p>
+       </section>
+
+      <footer>
+      <p>© 2025 Fahad Masood Internship Portfolio</p>
+      </footer>
+
+      
+  <script>
+  
+    function showMessage() {
+      alert("Welcome to my Portfolio");
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+Day18:
+
+Aaaj maine JavaScript functions kee baare me seekha orr unko practically use kiiya. Sabse pehle maine ek simple function banaya jiiska naam greet() rakhaa. Function basically ek block of code hota haii jou hum ek bar define kar dete hain orr baad me jitni dafa chaahe call karke use kar sakte haiin. Phir maine function ke andar maine ek alert() likha jo ek greeting message show karta hai: “Assalamualaikum khush aaa maded to kaise hain ap”.
+Uske baad maine HTML me ek button banaya jisme onclick="greet()" lagayaa. Matlab jab bhi user button pe click karega usee waqt greet() function run hoga orr alert box me message appear ho jaiiga. Yeh mujhe samjhata hai ke HTML ke elements orr JavaScript functions ko kaiise connect kiya jata hai.
+Is task se maine seekha ke JavaScript me function kaise banate haiin unko kaise call karte haiin orr user interaction ke sath kaise connect karte haiin .

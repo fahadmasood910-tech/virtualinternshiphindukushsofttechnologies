@@ -1,0 +1,3 @@
+Day 27:
+
+Aaaj maine One Page Portfolio (Part II) ka interactive version complete kiya jisme maine HTML, CSS orr JavaScript ka combined use kiya. Iss version mein  maine smooth scroll navigation, hover effects, orr fade in animations add kiye jisse portfolio orr zyada modern orr interactive bana. JavaScript ke zariye maine button click par welcome message show karwaya orr DOM events ka use karke page ke sections ko visually engaging banaya. Is task se maine seekha ke kaise DOM Events , CSS animations, orr JavaScript interactivity ke zariye ek simple website koo dynamic orr professional look di ja sakti hai. Iss task ke kuch concept ko sekhne ke lia maine internet orr youtube se madad lee .

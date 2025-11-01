@@ -1,0 +1,5 @@
+Day35:
+
+Aaaj main ne React mein ek simple Profile App banayi jismein ek profile photo, naam, profession, orr location show hoti haii. Is project ka maqsad tha components orr styling ka istemal seekhna. Main ne ProfileCard component banaya orr inline CSS se uska design clean banaya. Mujhe ye bhi seekhne ko mila ke images ko React ke `public` folder mein rakhne se wo properly display hoti hain. Is task ne mujhe React components orr styling ka clear concept diya aur next part ke liye base tayyar kiya.
+
+GitHub: https://github.com/fahadmasood910-tech/virtualinternshipbyhindukushsofttechnologies

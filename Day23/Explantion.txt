@@ -1,0 +1,5 @@
+Day23:
+
+Aaj hum ne seekha ke apni portfolio website ko Git or GitHub ke zariye online kaise upload karte hain. Pehle hum ne git init se folder ko Git repository banaya git add se files ko staging area me layaa orr git commit se un changes ko save kiyaa.Phir hum ne GitHub par ek naya repository create kiya orr git remote add origin ke zariye apne folder ko GitHub se connect kiya. Uske baad git push se apni portfolio site koo GitHub par upload kar diya.Is se hum ne seekha ke Git code ka record rakhne ke kaam aata hai orr GitHub apne projects ko online share karne ke liye use hota hai. Aaj hum ne apni portfolio site ko successfully GitHub par push karke ek real developer step liya. Orr aaj ke task ko karne ke lia maine internet orr youtube se concept sekhain .
+
+https://github.com/fahadmasood910-tech/portfolio

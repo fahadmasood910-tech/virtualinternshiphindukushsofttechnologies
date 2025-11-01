@@ -1,0 +1,3 @@
+Day24:
+
+Aaaj maine JavaScript me DOM (Document Object Model) ke zariye input fields se values lena orr unpe calculations karna seekha. Iss task me maine ek simple GPA Calculator banayaa jisme 6 subjects ke liye input boxes diye gaye hain jahan user apna GPA likh saktaa hai. Phir maine ek “Calculate GPA” button banayaa jisse click karne par JavaScript ka function run hota hai. Function ke andar maine getElementById se har subject ka GPA liya orr un sabko add karke 6 se divide kiya taake average GPA mil sake. Phir result ko innerText ke zariye page pe show karwaya. Iss task se maine seekha ke kaise hum HTML inputs ke data ko JavaScript me use kar sakte hain orr kaise button click se calculation perform karke result webpage pe display karte hain.

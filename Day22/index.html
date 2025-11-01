@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h2>Simple Form</h2>
+
+  <input id="nameInput" placeholder="Enter your name"><br><br>
+  <input id="emailInput" placeholder="Enter your email"><br><br>
+  
+  <button id="submitButton">Submit</button>
+
+  <p id="message"></p>
+
+  <script>
+      document.getElementById("submitButton").onclick = function() {
+      validateForm();
+    };
+    function validateForm() {
+      let name = document.getElementById("nameInput").value;
+      let email = document.getElementById("emailInput").value;
+      let msg = document.getElementById("message");
+
+      if (name === "" || email === "") 
+      {
+        msg.innerHTML = " Please fill all fields";
+        msg.style.color = "red";
+      }
+       else 
+      {
+        msg.innerHTML = " Form submitted successfully";
+        msg.style.color = "green";
+      }
+    }
+  </script>
+
+</body>
+</html>
