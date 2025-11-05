@@ -1,0 +1,6 @@
+Day37:
+
+Aaaj main ne apni Profile App ka third part complete kiya jisme main ne React ke State orr Interactivity concepts ka use kiyaa. Is task mein main ne Dark Mode Toggle , Counter with Increment & Reset Buttons, orr smooth UI updates implement kiye.
+Ab app mein ek button se light orr dark theme change ki ja sakti hai, jisme background orr text color dynamically update hotay hain. Main ne ek counter feature bhi add kiya jo button click par badhta hai orr reset button se wapas zero ho jata haiii. Saath hi, Header orr Footer components ko update kiya  taake dono modes mein text clearly visible rahe. Is project me maine apne last task 36 ko he update kia .
+
+GitHub: https://github.com/fahadmasood910-tech/virtualinternshiphindukushsofttechnologies

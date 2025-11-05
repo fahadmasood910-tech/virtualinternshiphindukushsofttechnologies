@@ -1,0 +1,7 @@
+Day39:
+
+Aaaj main ne apna Capstone Project  Notes App start kiiya. Is task ka maqsad React ke concepts ko ek proper real world project mein apply karna tha. Main ne Notes App ka structure design kiiya jisme header, form, notes list, orr footer components include kiye.
+Main ne React project planning, component layout, orr CSS styling ka use kiya. App ka design clean orr modern banane ke liye main ne gradients, hover effects, shadows orr transitions add kiiye. Har note card ko neat look dene ke liye box shadow orr smooth animation lagayaa.
+Is task se maine ne sekha  ke ek React app ko visually appealing orr  user riendly banane ke liye CSS ka effective use kitna zaroori hota hai. 
+
+GitHub:https://github.com/fahadmasood910-tech/virtualinternshiphindukushsofttechnologies

@@ -1,0 +1,6 @@
+Day38:
+
+Aaaj main ne apni internship ka Day 38 Task GitHub User Finder App complete kiiya. Is project mein maine API Calls, Fetch, orr Async/Await ka practical use seekhaa.
+Main ne ek React app banayaa jo GitHub ke public API se user data fetch karti haii. User sirf username enter karta hai orr  app uska profile picture, name, bio, followers, following, orr public repos show karti haii. Is project ne mujhe samjhaya ke real time data kaise fetch karte hain orr React mein state updates orr conditional rendering kaise handle hoti haii. Saath hi maine error handling orr loading states bhi add kiye taake UI smooth aur professional lage.
+
+GitHub:https://github.com/fahadmasood910-tech/virtualinternshiphindukushsofttechnologies

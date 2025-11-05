@@ -1,0 +1,5 @@
+ Day36:
+
+Aaaj main ne React ka use karke apni Profile App ko orr bhi improve kiyaa. Is task mein main ne Props** orr CSS Modules kaa use karke ProfileCard component ko dynamic banaya orr  uska design mazeed  clean kiya. Ab data jaise naam, profession, orr location App.js se Props ke zariye pass hotay hain, jisse component reusable ban gaya. Or maine have day 35 jo ke hamare profile project ka task one tha ise ke upgrade kar dia .  Is project maine mujhe React Props, component structure, orr modular styling ke bare me sekha .
+
+GitHub: https://github.com/fahadmasood910-tech/virtualinternshiphindukushsofttechnologies

@@ -2,5 +2,4 @@ Day31:
 
 Aaaj maine React ka first project complete kiya jisme maine “Hello Chitral” browser par render kiiya. Is task mein maine Node.js orr npm install karke create react app command ka use kiya jisse ek new React project automatically setup hoo gaya. Fir maine App.js file ko edit karke apna custom text “Hello Chitral” display karwaya. Is process ke zariye maine seekha ke React components, JSX orr auto reload system kaise kaam karta haii. Ye React journey ka pehla step tha jisse mujhe frontend development orr modern JavaScript framework ke basics samajhne mein madad mili. Orr is task ko karne ke lia miane internet se basic concepts sekhain . Pichle task jo hum directly google drive pr upload karte the lakin react ke task me directly drive me upload na karsake q ke in ke size kafi ziada hai is lia maine is task ko git hub par upload kar dia orr aane wale task bhi hum ise tarha github pr upload karain ge . 
 
-
-https://github.com/fahadmasood910-tech/virtualinternshipbyhindukushsofttechnologies
+https://github.com/fahadmasood910-tech/virtualinternshiphindukushsofttechnologies/tree/main/Day31

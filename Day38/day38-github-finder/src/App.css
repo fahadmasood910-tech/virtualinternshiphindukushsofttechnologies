@@ -1,0 +1,76 @@
+
+.App {
+  text-align: center;
+  padding: 30px;
+  background: #f7f8fb;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+h1 {
+  margin-bottom: 18px;
+}
+
+
+.searchForm {
+  margin-bottom: 18px;
+}
+.searchInput {
+  padding: 8px 12px;
+  width: 250px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-right: 8px;
+  outline: none;
+}
+.searchInput:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0,123,255,0.2);
+}
+.searchButton {
+  padding: 8px 14px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.searchButton:hover { background: #0056b3; }
+
+
+.info { color: #444; margin-top: 10px; }
+.error { color: #d9534f; margin-top: 10px; }
+
+
+.user-card {
+  background: white;
+  width: 340px;
+  margin: 18px auto;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(10,10,20,0.06);
+  text-align: center;
+}
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.login { color: #666; margin-top: 4px; }
+.bio { margin: 10px 0; color: #444; }
+.stats { display: flex; justify-content: space-around; color: #333; margin-top: 8px; }
+.profileLink {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 12px;
+  background: #28a745;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.profileLink:hover { opacity: 0.95; transform: translateY(-2px); transition: 0.15s; }
+
+.note { margin-top: 18px; color: #666; font-size: 14px; }
